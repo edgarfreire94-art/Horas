@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="#111410"/>
+  
+  <!-- Calendar body -->
+  <rect x="80" y="140" width="352" height="300" rx="28" fill="#1c1e19" stroke="#2e3029" stroke-width="8"/>
+  
+  <!-- Calendar header -->
+  <rect x="80" y="140" width="352" height="90" rx="28" fill="#c5f135"/>
+  <rect x="80" y="195" width="352" height="35" fill="#c5f135"/>
+  
+  <!-- Calendar rings -->
+  <rect x="172" y="100" width="24" height="80" rx="12" fill="#c5f135"/>
+  <rect x="316" y="100" width="24" height="80" rx="12" fill="#c5f135"/>
+  
+  <!-- Clock circle -->
+  <circle cx="256" cy="330" r="110" fill="#111410" stroke="#c5f135" stroke-width="10"/>
+  <circle cx="256" cy="330" r="8" fill="#c5f135"/>
+  
+  <!-- Clock hour hand (pointing to ~10) -->
+  <line x1="256" y1="330" x2="210" y2="285" stroke="#c5f135" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Clock minute hand (pointing to ~2) -->
+  <line x1="256" y1="330" x2="306" y2="280" stroke="#c5f135" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Clock tick marks -->
+  <line x1="256" y1="232" x2="256" y2="248" stroke="#2e3029" stroke-width="6" stroke-linecap="round"/>
+  <line x1="256" y1="412" x2="256" y2="428" stroke="#2e3029" stroke-width="6" stroke-linecap="round"/>
+  <line x1="158" y1="330" x2="174" y2="330" stroke="#2e3029" stroke-width="6" stroke-linecap="round"/>
+  <line x1="338" y1="330" x2="354" y2="330" stroke="#2e3029" stroke-width="6" stroke-linecap="round"/>
+</svg>
